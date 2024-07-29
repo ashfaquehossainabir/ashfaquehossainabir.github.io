@@ -24,6 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -81,8 +82,17 @@ nav.sticky .menu a:hover{
   font-size: 18px;
   margin: 0 6px;
 }
+
+.navbar .media-icons a:hover {
+  color: #00FA9A;
+}
+
 nav.sticky .media-icons a{
   color: #FFF;
+}
+
+nav.sticky .media-icons a:hover {
+  color: #0E2431;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -107,7 +117,7 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 
-/* home section styling */
+/* Home section styling */
 .home{
   height: 100vh;
   width: 100%;
@@ -168,8 +178,6 @@ nav.sticky .menu-btn{
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 40px;
 }
@@ -254,7 +262,7 @@ section .button button:hover{
   color: #4070f4;
 }
 
- /* My Skills CSS */
+ /* My Skills Section */
  .skills{
    background: #F0F8FF;
  }
@@ -308,7 +316,7 @@ section .button button:hover{
   color: #4070f4;
 }
 
-/* My Services CSS */
+/* My Services Section */
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +364,7 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-/* Contact Me CSS */
+/* Contact Section */
 .contact{
   background: #F0F8FF;
 }
@@ -370,7 +378,7 @@ section .button button:hover{
   margin: auto;
 }
 
-/* Footer CSS */
+/* Footer Section */
 footer{
   background: rgb(22, 22, 22);
   padding: 15px 0;
@@ -389,7 +397,7 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: none;
 }
-/* Scroll TO Top Button CSS */
+/* Scroll To Top Button Styling */
 .scroll-button a{
   position: fixed;
   bottom: 20px;
@@ -409,6 +417,7 @@ footer .text span a:hover{
     width: 85%;
   }
 }
+
 @media (max-width: 1000px) {
   .about .about-details{
     justify-content: center;
@@ -428,6 +437,7 @@ footer .text span a:hover{
     width: calc(100% / 2 - 20px);
   }
 }
+
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;

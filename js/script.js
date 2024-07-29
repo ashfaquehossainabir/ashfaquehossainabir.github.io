@@ -51,3 +51,12 @@ var typed = new Typed(".typing", {
   backSpeed: 60,
   loop: true
 });
+
+// Get Age
+const age = new Date().getFullYear() - 2000;
+document.getElementById('age').innerHTML = age;
+
+// Get Year
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year;
