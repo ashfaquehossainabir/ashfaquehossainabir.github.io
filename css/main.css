@@ -337,7 +337,7 @@ section .button button:hover{
 .services .boxes .box:hover{
   background: #4070f4;
   color: #fff;
-  transform:translateY(-15px);
+  /* transform:translateY(-15px); */
 }
 .services .boxes .box .icon{
   height: 50px;
