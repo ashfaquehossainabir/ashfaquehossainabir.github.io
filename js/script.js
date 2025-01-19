@@ -60,3 +60,20 @@ document.getElementById('age').innerHTML = age;
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year;
+
+
+// Lunch The Notifiaction
+function lunchNotifiaction() {
+  // Get the snackbar DIV
+  var x = document.getElementById("notification");
+
+  // Add the "show" class to DIV
+  x.className = "show";
+
+  // After 30 seconds, remove the show class from DIV
+  setTimeout(function () {
+    x.className = x.className.replace("show", "hide");
+  }, 10000);
+}
+// Initialize theNotification
+document.body.onload = lunchNotifiaction();
