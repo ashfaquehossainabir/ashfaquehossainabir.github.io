@@ -96,10 +96,14 @@
 }
   
 /* Notification Link Style Color */
-a.notif-link{
+a.notif-link {
       font-family: 'Ubuntu', sans-serif;
       font-weight: 700;
       color: #fff !important;
+}
+
+a.notif-link:hover {
+  text-decoration: underline;
 }
   
 /* Show the notification when clicking on a button (class added with JavaScript) */

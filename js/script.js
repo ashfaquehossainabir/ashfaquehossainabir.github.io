@@ -63,7 +63,7 @@ document.getElementById("year").innerHTML = year;
 
 
 // Lunch The Notifiaction
-function lunchNotifiaction() {
+setTimeout(function lunchNotifiaction() {
   // Get the snackbar DIV
   var x = document.getElementById("notification");
 
@@ -74,6 +74,7 @@ function lunchNotifiaction() {
   setTimeout(function () {
     x.className = x.className.replace("show", "hide");
   }, 10000);
-}
+}, 10000);
+
 // Initialize theNotification
 document.body.onload = lunchNotifiaction();
